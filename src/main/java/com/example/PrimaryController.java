@@ -51,4 +51,11 @@ public class PrimaryController {
     }
 }
 
+    public void clicar(){
+        var nota = listaNotas.getSelectionModel().getSelectedItem();
+
+        System.out.println(nota);
+        
+    }
+
 }

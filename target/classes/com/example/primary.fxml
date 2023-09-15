@@ -42,7 +42,7 @@
       </HBox>
       <HBox prefHeight="320.0" prefWidth="660.0">
          <children>
-            <ListView fx:id="listaNotas" prefHeight="320.0" prefWidth="206.0">
+            <ListView fx:id="listaNotas" prefHeight="320.0" onMouseClicked = "#clicar" prefWidth="206.0">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
